@@ -70,6 +70,11 @@ define({
           attribute: 'description',
           placeholder: 'Enter a description (200 words or fewer please)'
         },
+        test: {
+          label: 'Test',
+          attribute: 'test',
+          placeholder: 'Blah'
+        },
         location: {
           label: 'Location',
           attribute: 'location',

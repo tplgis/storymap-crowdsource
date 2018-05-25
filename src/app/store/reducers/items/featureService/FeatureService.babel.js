@@ -212,6 +212,16 @@ const defaultLayerDefinition = {
 			editable: true,
 			nullable: true,
 			length: 2
+		},
+                //test field
+        {
+			name: 'Test',
+			type: 'esriFieldTypeString',
+			alias: 'Test',
+			domain: null,
+			editable: true,
+			nullable: true,
+			length: 256
 		}]
 	}]
 };

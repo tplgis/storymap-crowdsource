@@ -55,6 +55,16 @@ export const featureServiceDefaults = {
         attributeName: builderText.contribute.defaultForm.description.attribute,
         placeholder: builderText.contribute.defaultForm.description.placeholder,
         validations: ['arcgisSupportedHtml']
+      },
+        //test
+      Test: {
+        required: true,
+        type: 'textarea',
+        fieldID: 'Test',
+        label: builderText.contribute.defaultForm.test.label,
+        attributeName: builderText.contribute.defaultForm.test.attribute,
+        placeholder: builderText.contribute.defaultForm.test.placeholder,
+        validations: ['arcgisSupportedHtml']
       }
     }
   }
